@@ -1,5 +1,5 @@
 
-public class Ogretmen extends Kisi{
+public class Hoca extends Kisi{
 
 	private int SicilNo;
 	private String Bolum;
@@ -17,10 +17,10 @@ public class Ogretmen extends Kisi{
 		Bolum = bolum;
 	}
 	
-	public Ogretmen() {
+	public Hoca() {
 		
 	}
-	public Ogretmen(int tcNo, String ad, String soyad, int dtarihi,
+	public Hoca(int tcNo, String ad, String soyad, int dtarihi,
 			int sicilNo, String bolum) {
 		super(tcNo, ad, soyad, dtarihi);
 		SicilNo = sicilNo;

@@ -1,5 +1,5 @@
 
-public class Memur extends Kisi {
+public class Personel extends Kisi {
 
 	private int SicilNo;
 	private String Birim;
@@ -17,10 +17,10 @@ public class Memur extends Kisi {
 		Birim = birim;
 	}
 	
-	public Memur() {
+	public Personel() {
 		
 	}
-	public Memur(int tcNo, String ad, String soyad, int dtarihi, int sicilNo,
+	public Personel(int tcNo, String ad, String soyad, int dtarihi, int sicilNo,
 			String birim) {
 		super(tcNo, ad, soyad, dtarihi);
 		SicilNo = sicilNo;
