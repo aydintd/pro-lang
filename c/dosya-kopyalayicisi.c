@@ -34,6 +34,6 @@ int main(void)
 }
 
 /* origin.txt dosyasının içeriğini olduğu gibi destination.txt içine 
- * aktarıyor. Daha sonra geliştirilmek üzere TODO olarak bırakıyorum. */
+ * kopyalıyor. Daha sonra geliştirilmek üzere TODO olarak bırakıyorum. */
 
 
