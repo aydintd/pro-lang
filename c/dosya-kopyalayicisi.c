@@ -7,8 +7,8 @@ int main(void)
     int c;	
     FILE *fp, *fp2;
 
-    fp = fopen("results.txt", "r");
-    fp2 = fopen("results2.txt", "w");
+    fp = fopen("origin.txt", "r");
+    fp2 = fopen("destination.txt", "w");
 
     if (fp == NULL) {
        
@@ -32,3 +32,8 @@ int main(void)
     return 0;
 
 }
+
+/* origin.txt dosyasının içeriğini olduğu gibi destination.txt içine 
+ * aktarıyor. Daha sonra geliştirilmek üzere TODO olarak bırakıyorum. */
+
+
