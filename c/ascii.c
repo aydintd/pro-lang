@@ -8,9 +8,9 @@ int main(void)
 	for ( ; ; ) {
 
 	    p = getchar();
-	    
+
 	    if ( p > 'a' ) {
-		p = p + 'A'  - 'a'; 
+		p = p + 'A'  - 'a';
 		putchar(p);
 	    }
 

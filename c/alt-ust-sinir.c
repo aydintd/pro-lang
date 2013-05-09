@@ -4,7 +4,7 @@ int main(void)
 {
 	int alt_sinir;
 	int ust_sinir;
-	
+
 	printf("Alt Sinir Degerini Girin:\n");
 	scanf("%d", &alt_sinir);
 	printf("Ust Sinir Degerini Girin:\n");

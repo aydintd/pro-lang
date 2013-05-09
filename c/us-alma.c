@@ -12,7 +12,7 @@ int main(void)
 
 	for (n = 0.0; n <= 16.0; n++)
 	{
-		sonuc = pow(2, n);	
+		sonuc = pow(2, n);
 		printf("%f\t%2f\n", n, sonuc);
 
 	}
