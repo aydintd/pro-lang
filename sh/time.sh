@@ -3,17 +3,19 @@
 now=$(date +"%T")
 a=$(echo $now | cut -d':' -f1)
 
-if [ "$a" -lt 12]; then
+if [ "$a" -ge 00 ] && [ "$a" -lt 06 ]; then
+	clear
+	echo "Good Night, $USER"
+
+elif [ "$a" -ge 06 ] && [ "$a" -lt 12 ]; then
 	clear
 	echo "Good Morning, $USER"
 
-if [ "$a" -e 12 ]; then
+elif [ "$a" -ge 12 ] && [ "$a" -le 18 ]; then
 	clear
 	echo "Good Afternoon, $USER"
-fi
-
 else
-	clear
-	echo "Good night, $USER"
+	echo "Good Evening, $USER"
+
 fi
 
